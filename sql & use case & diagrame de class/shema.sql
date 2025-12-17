@@ -12,7 +12,7 @@ CREATE TABLE users (
 CREATE TABLE themes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   user_id INT,
-  name VARCHAR(100),
+  name VARCHAR(100) UNIQUE,
   color VARCHAR(20),
   tags VARCHAR(255),
   date_created DATE,
@@ -23,7 +23,7 @@ CREATE TABLE notes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   user_id INT,
   theme_id INT,
-  title VARCHAR(150),
+  title VARCHAR(150) UNIQUE,
   importance INT,
   content TEXT,
   date_created DATE,

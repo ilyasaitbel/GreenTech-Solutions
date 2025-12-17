@@ -51,35 +51,9 @@ Elle permet :
 
 ## 🧱 Technologies utilisées
 
-- PHP 8 (procédural)
+- PHP
 - MySQL / MariaDB
 - HTML5 / CSS3
-- Bootstrap 5
+- Bootstrap
 - JavaScript (validation & interactions)
 - Sessions PHP
-
----
-
-## 📂 Arborescence du projet
-
-digital-garden/
-│── index.php
-│── login.php
-│── register.php
-│── dashboard.php
-│── themes.php
-│── notes.php
-│── logout.php
-│── config/
-│     └── database.php
-│── includes/
-│     ├── header.php
-│     ├── footer.php
-│     └── auth.php
-│── public/
-│     ├── css/
-│     │    └── styles.css
-│     └── js/
-│          └── validation.js
-└── sql/
-      └── schema.sql
