@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #2f855a;
+}
+
+.error {
+    color: red;
+}
+
+.card-theme {
+    border-left: 6px solid #38a169;
+    padding: 10px;
+    border-radius: 6px;
+    background: white;
+    margin-bottom: 10px;
+}
